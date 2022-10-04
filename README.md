@@ -14,6 +14,10 @@ CSS
 
 JAVASCRIPT
 
+ES6
+
+LUXON
+
 
 
 ## Live Demo (if available)
