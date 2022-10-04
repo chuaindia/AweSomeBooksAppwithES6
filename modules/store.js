@@ -4,16 +4,19 @@ class Store {
     if (localStorage.getItem('books') === null) {
       books = [];
     }
+    
     else {
       books = JSON.parse(localStorage.getItem('books'));
     }
     return books;
   }
+  
   static addBook(book) {
     const books = Store.getBooks();
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
   }
+  
   static removeBook(title) {
     const books = Store.getBooks();
     books.forEach((book, index) => {
