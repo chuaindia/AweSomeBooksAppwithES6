@@ -1,3 +1,7 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable brace-style */
+/* eslint-disable linebreak-style */
+/* eslint-disable no-trailing-spaces */
 class Store {
   static getBooks() {
     let books;
